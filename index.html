@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI for Education: Exploring The Frontiers of ICT</title>
+  <meta name="description" content="Erasmus deneyimimden ilhamla hazırlanan, eğitimde yapay zekanın sınırlarını keşfeden interaktif web sitesi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            primary: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            },
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(2,6,23,.12)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .glow { box-shadow: 0 0 40px rgba(59,130,246,.25), inset 0 0 40px rgba(59,130,246,.08); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100">
+  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-slate-900/60">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="font-extrabold text-xl tracking-tight">AI for Education</a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#about" class="hover:text-primary-600">Hakkında</a>
+          <a href="#demos" class="hover:text-primary-600">AI Demos</a>
+          <a href="#gallery" class="hover:text-primary-600">Galeri</a>
+          <a href="#contact" class="hover:text-primary-600">İletişim</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button id="themeToggle" class="rounded-2xl px-3 py-2 text-xs border border-slate-200 dark:border-slate-700 hover:border-primary-400 hover:shadow-soft">🌞 / 🌙</button>
+          <a href="#demos" class="hidden sm:inline-block bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold px-4 py-2 rounded-xl shadow-soft">Demosu Gör</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-primary-50 via-white to-transparent dark:from-slate-800 dark:via-slate-900"></div>
+    <div class="max-w-6xl mx-auto px-4 pt-16 pb-12 relative">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight">
+            AI for Education: <span class="text-primary-700 dark:text-primary-400">Exploring The Frontiers of ICT</span>
+          </h1>
+          <p class="mt-4 text-lg text-slate-600 dark:text-slate-300">Roma'da aldığım Erasmus yapay zeka eğitiminin çıktılarıyla eğitimde AI'ın pratik faydalarını gösteren interaktif bir site.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#demos" class="bg-primary-600 hover:bg-primary-700 text-white font-semibold px-5 py-3 rounded-2xl shadow-soft">AI Demos</a>
+            <a href="#about" class="border border-slate-200 dark:border-slate-700 hover:border-primary-400 px-5 py-3 rounded-2xl">Projeyi Oku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
