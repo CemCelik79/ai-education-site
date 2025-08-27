@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://cemcelik79.github.io/ai-education-site/sitemap.xml
 
